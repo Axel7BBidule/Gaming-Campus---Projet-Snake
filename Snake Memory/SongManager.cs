@@ -2,9 +2,9 @@
 
 public class SongManager
 {
-    public const string DefaultAppleSoundPath = "song/apple.wav";
-    public const string DefaultThemeMusicPath = "song/theme.mp3";
-    public const string DefaultClickSoundPath = "song/click.wav";
+    public const string DefaultAppleSoundPath = "apple.wav";
+    public const string DefaultThemeMusicPath = "theme.mp3";
+    public const string DefaultClickSoundPath = "click.wav";
 
     private Sound? appleSound;
     private Sound? clickSound;
@@ -158,3 +158,4 @@ public class SongManager
         Unload();
     }
 }
+
